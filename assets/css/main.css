@@ -1436,17 +1436,69 @@ section,
 
   /* BOTÕES */
 
-ul li .btn {
-  padding-top:2px;
-  padding-bottom: 2px;
-  position:relative;
-  right: -50px;
-  margin-left: 10px;
-}
 
-#rubi {
-  padding-right: 25px;
+  .situacao {
+    height: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .caixa {
+    width: 100%;
+    height: 70px;
+    background: #060606;
+    display: flex;
+    align-items: center; /* Alinha as linhas à esquerda */
+    justify-content: center; /* Remove espaçamento extra */
+  }
+  
+  .cor_linha {
+    width: 50px;
+    height: 10px;
+    background-color: #059652;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  .nome_linha {
+    margin-bottom: 0; /* Remove a margem inferior */
+    color: rgb(211, 31, 31);
+  }
+  
+  .linha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px; /* Pequeno espaço entre o texto e o indicador de cor */
+    margin-bottom: 5px; /* Reduz o espaçamento vertical entre as linhas */
+    margin-right: 40px;
+  }
 
-  padding-top: 2px;
-  padding-bottom: 3px;
-}
+  .linha .rubi {
+    color: #9a2165;
+  }
+
+  .linha #turquesa {
+    color: #207c8e;
+  }
+
+  .linha #coral {
+    color: #ea552f;
+  }
+
+  .linha #safira {
+    color: #0e3e86;
+  }
+
+  .linha #jade {
+    color: #2fa960;
+  }
+  
+
+
+
+
+  
